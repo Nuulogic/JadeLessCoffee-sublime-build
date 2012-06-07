@@ -15,24 +15,24 @@ Requirements
 
 **The JadeLessCoffee compiler** It will need to be installed. <http://github.com/Nuulogic/jadelesscoffee>
 
-After installing node.js:
+After installing node.js:  
 `$ sudo npm -g install https://github.com/Nuulogic/jadelesscoffee.git`
 
 
 Installation
 ------------
 
-Download the source as a zip or check it out. Either way copy the `JadeLessCoffee` folder to your Sublime Text 2 Packages folder:
-OS X: `/Users/*username*/Library/Application\ Support/Sublime\ Text\ 2/Packages/`
-Linux: `/home/*username*/.config/sublime_text/Packages/`
-Windows: `\AppData\Roaming\Sublime Text 2\Packages\`
+Download the source as a zip or check it out. Either way copy the `JadeLessCoffee` folder to your Sublime Text 2 Packages folder:  
+OS X: `/Users/*username*/Library/Application\ Support/Sublime\ Text\ 2/Packages/`  
+Linux: `/home/*username*/.config/sublime_text/Packages/`  
+Windows: `\AppData\Roaming\Sublime Text 2\Packages\`  
 
 Usage
 -----
 
 Be sure to set the Build System to JadeLessCoffee: Tools -> Build System -> Export JadeLessCoffee
 
-By default the builder looks for a `./src` folder and outputs to the base directory of the project.
+By default the builder looks for a `./src` folder and outputs to the base directory of the project.  
 It generates a `Makefile` or if a `Makefile` exists it makes a `jlc` target.
 
 The JadeLessCoffee Sublime Build checks for certain types of projects.
@@ -47,8 +47,8 @@ If **Django** is detected with the presence of:
 * `./manage.py`
 
 These are used as the sources:
-* ./templates/src 
-* ./static/src
+* `./templates/src`
+* `./static/src`
 
 
 Helpful/Useful
