@@ -1,0 +1,9 @@
+#jlc default compiler
+
+JLC_SRC=./src
+JLC_OUT=./
+JLC=jlc
+
+
+jlc:
+    $(JLC) --incremental --out $(JLC_OUT) $(JLC_SRC)

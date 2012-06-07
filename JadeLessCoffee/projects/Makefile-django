@@ -1,0 +1,11 @@
+#jlc django compiler
+
+JLC_TEMPLATE_SRC=./templates/src
+JLC_TEMPLATE_OUT=./templates
+JLC_STATIC_SRC=./static/src
+JLC_STATIC_OUT=./static
+JLC=jlc
+
+jlc:
+    $(JLC) --incremental --out $(JLC_TEMPLATE_OUT) $(JLC_TEMPLATE_SRC) \
+    $(JLC) --incremental --out $(JLC_STATIC_OUT) $(JLC_STATIC_SRC)

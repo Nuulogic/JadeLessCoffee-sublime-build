@@ -1,0 +1,3 @@
+{
+    "cmd": ["python", "${packages}/JadeLessCoffee/exportjlc.py", "${project_path:${folder}}", "${packages}/JadeLessCoffee"]
+}
